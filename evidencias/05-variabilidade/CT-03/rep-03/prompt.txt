@@ -1,0 +1,1 @@
+Extraia o fabricante de cada produto. Quando a fonte não informar fabricante, use nulo e sinalize explicitamente a ausência.

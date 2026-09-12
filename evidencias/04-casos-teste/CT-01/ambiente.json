@@ -1,0 +1,18 @@
+{
+  "caso": "CT-01",
+  "tentativa": 2,
+  "inicio_local": "2026-09-12T16:30:32-03:00",
+  "python": "3.13.0",
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "scrapegraphai_version": "2.2.4",
+  "scrapegraphai_commit": "c75c8084fae2d4f5ba01a8c218bc1168b67e3569",
+  "scrapegraphai_tag": "v2.2.4",
+  "ollama_version": "0.34.0",
+  "ollama_model": "llama3.2:latest",
+  "ollama_model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "fonte_sha256": "9d3952d49bfaa678732b7fdc35016d5a4fb5a4d1ce358e072f471d1bbcfa6141",
+  "gabarito_sha256": "807427fa075a4278917d04cd9a3c546612818bb5878832362128379ee3ebbfbf",
+  "config_sha256": "164e56fd0eadcafc2739b9818aee56bd7e3da6d43fdcaced0c81271202c4ef36",
+  "duracao_segundos": 8.85130769998068,
+  "fim_local": "2026-09-12T16:30:41-03:00"
+}

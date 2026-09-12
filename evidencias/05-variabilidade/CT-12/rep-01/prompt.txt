@@ -1,0 +1,1 @@
+Retorne todo o catálogo exclusivamente no schema Pydantic fornecido, sem texto ou campos adicionais.

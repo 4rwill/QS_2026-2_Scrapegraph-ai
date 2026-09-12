@@ -1,0 +1,28 @@
+{
+  "additionalProperties": false,
+  "description": "Estado de uma fonte HTTP ausente.",
+  "properties": {
+    "fonte_disponivel": {
+      "title": "Fonte Disponivel",
+      "type": "boolean"
+    },
+    "produtos": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Produtos",
+      "type": "array"
+    },
+    "mensagem": {
+      "title": "Mensagem",
+      "type": "string"
+    }
+  },
+  "required": [
+    "fonte_disponivel",
+    "produtos",
+    "mensagem"
+  ],
+  "title": "EstadoFonte",
+  "type": "object"
+}

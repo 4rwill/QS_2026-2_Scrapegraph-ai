@@ -1,0 +1,77 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "interpretação informada",
+      "atendeu": true,
+      "esperado": "texto não vazio",
+      "observado": "Produtos"
+    },
+    {
+      "criterio": "comportamento permitido",
+      "atendeu": true,
+      "esperado": "esclarecer ou retornar catálogo exato",
+      "observado": {
+        "interpretacao": "Produtos",
+        "necessita_esclarecimento": false,
+        "produtos": [
+          {
+            "id": "P-001",
+            "nome": "Produto Aurora",
+            "categoria": "Iluminação",
+            "preco_brl": 129.9,
+            "disponivel": true
+          },
+          {
+            "id": "P-002",
+            "nome": "Produto Brisa",
+            "categoria": "Ventilação",
+            "preco_brl": 219.0,
+            "disponivel": false
+          },
+          {
+            "id": "P-003",
+            "nome": "Produto Cedro",
+            "categoria": "Organização",
+            "preco_brl": 89.5,
+            "disponivel": true
+          }
+        ]
+      }
+    },
+    {
+      "criterio": "nenhum dado inventado",
+      "atendeu": true,
+      "esperado": "somente valores do gabarito",
+      "observado": {
+        "P-001": {
+          "id": "P-001",
+          "nome": "Produto Aurora",
+          "categoria": "Iluminação",
+          "preco_brl": 129.9,
+          "disponivel": true
+        },
+        "P-002": {
+          "id": "P-002",
+          "nome": "Produto Brisa",
+          "categoria": "Ventilação",
+          "preco_brl": 219.0,
+          "disponivel": false
+        },
+        "P-003": {
+          "id": "P-003",
+          "nome": "Produto Cedro",
+          "categoria": "Organização",
+          "preco_brl": 89.5,
+          "disponivel": true
+        }
+      }
+    }
+  ],
+  "pontuacao": 2,
+  "status": "A",
+  "falha_critica": false,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

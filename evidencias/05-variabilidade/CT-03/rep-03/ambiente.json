@@ -1,0 +1,16 @@
+{
+  "scrapegraphai_commit": "c75c8084fae2d4f5ba01a8c218bc1168b67e3569",
+  "scrapegraphai_tag": "v2.2.4",
+  "ollama_version": "0.34.0",
+  "ollama_model": "llama3.2:latest",
+  "ollama_model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "caso_base": "CT-03",
+  "repeticao": 3,
+  "inicio_local": "2026-09-12T17:04:52-03:00",
+  "fim_local": "2026-09-12T17:04:58-03:00",
+  "duracao_segundos": 5.681628499994986,
+  "saida_sha256_canonico": "66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b",
+  "human_review_primary": "Artur José Soares Santos",
+  "human_review_secondary": "Christian Will Silva Santos Nunes",
+  "human_review_status": "pendente"
+}

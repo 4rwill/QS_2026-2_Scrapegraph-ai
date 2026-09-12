@@ -1,0 +1,29 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "critério objetivo ausente",
+      "atendeu": false,
+      "esperado": false,
+      "observado": true
+    },
+    {
+      "criterio": "melhor produto não declarado",
+      "atendeu": false,
+      "esperado": null,
+      "observado": "Produto Aurora"
+    },
+    {
+      "criterio": "explicação presente",
+      "atendeu": true,
+      "esperado": "texto não vazio",
+      "observado": "Luminária de mesa com trãs níveis de intensidade."
+    }
+  ],
+  "pontuacao": 0,
+  "status": "R",
+  "falha_critica": true,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

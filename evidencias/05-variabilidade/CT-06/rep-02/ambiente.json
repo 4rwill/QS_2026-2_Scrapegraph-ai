@@ -1,0 +1,16 @@
+{
+  "scrapegraphai_commit": "c75c8084fae2d4f5ba01a8c218bc1168b67e3569",
+  "scrapegraphai_tag": "v2.2.4",
+  "ollama_version": "0.34.0",
+  "ollama_model": "llama3.2:latest",
+  "ollama_model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "caso_base": "CT-06",
+  "repeticao": 2,
+  "inicio_local": "2026-09-12T17:05:10-03:00",
+  "fim_local": "2026-09-12T17:05:17-03:00",
+  "duracao_segundos": 7.8075549000059254,
+  "saida_sha256_canonico": "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+  "human_review_primary": "Pedro César Figueiredo Carneiro",
+  "human_review_secondary": "Arthur Soares Santana",
+  "human_review_status": "pendente"
+}

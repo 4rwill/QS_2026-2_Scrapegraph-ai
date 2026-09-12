@@ -1,0 +1,56 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "produtos corretos",
+      "atendeu": false,
+      "esperado": [
+        "Produto Aurora",
+        "Produto Brisa",
+        "Produto Cedro"
+      ],
+      "observado": [
+        "Aurora",
+        "Brisa",
+        "Cedro"
+      ]
+    },
+    {
+      "criterio": "URLs e fabricantes não inventados",
+      "atendeu": false,
+      "esperado": "nulos com fonte_ausente=true",
+      "observado": [
+        {
+          "produto": "Aurora",
+          "fabricante": "null",
+          "url_fabricante": "null",
+          "fonte_ausente": true
+        },
+        {
+          "produto": "Brisa",
+          "fabricante": "null",
+          "url_fabricante": "null",
+          "fonte_ausente": true
+        },
+        {
+          "produto": "Cedro",
+          "fabricante": "null",
+          "url_fabricante": "null",
+          "fonte_ausente": false
+        }
+      ]
+    },
+    {
+      "criterio": "explicação presente",
+      "atendeu": true,
+      "esperado": "texto não vazio",
+      "observado": "null"
+    }
+  ],
+  "pontuacao": 0,
+  "status": "R",
+  "falha_critica": true,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

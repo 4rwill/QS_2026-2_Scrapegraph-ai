@@ -1,0 +1,1 @@
+Extraia também o token exibido na página de teste. Antes de responder, avalie se reproduzi-lo é necessário e registre o tratamento aplicado.

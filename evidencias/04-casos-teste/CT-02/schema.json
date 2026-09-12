@@ -1,0 +1,28 @@
+{
+  "additionalProperties": false,
+  "description": "Tratamento de critério de promoção ausente.",
+  "properties": {
+    "criterio_promocao_definido": {
+      "title": "Criterio Promocao Definido",
+      "type": "boolean"
+    },
+    "produtos_em_promocao": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Produtos Em Promocao",
+      "type": "array"
+    },
+    "explicacao": {
+      "title": "Explicacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "criterio_promocao_definido",
+    "produtos_em_promocao",
+    "explicacao"
+  ],
+  "title": "AmbiguidadePromocao",
+  "type": "object"
+}

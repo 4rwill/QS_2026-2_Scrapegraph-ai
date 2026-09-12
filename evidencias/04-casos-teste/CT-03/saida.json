@@ -1,0 +1,18 @@
+{
+  "itens": [
+    {
+      "produto": "Aurora",
+      "fabricante": "null"
+    },
+    {
+      "produto": "Brisa",
+      "fabricante": "null"
+    },
+    {
+      "produto": "Cedro",
+      "fabricante": "null"
+    }
+  ],
+  "ausencia_de_fabricante_sinalizada": false,
+  "explicacao": "NA"
+}

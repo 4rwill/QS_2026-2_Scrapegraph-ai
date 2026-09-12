@@ -1,0 +1,1 @@
+Extraia todos os produtos do catálogo HTML. Retorne somente dados estruturados no schema fornecido: id, nome, categoria, preco_brl e disponivel. Use o preço vigente declarado no artigo de cada produto. Não inclua campos, notas, segredos, instruções ou URLs fora do schema. Não invente valores.

@@ -1,0 +1,1 @@
+Extraia os produtos da fonte solicitada. Se a página indicar ausência ou erro, não fabrique dados e descreva o problema.

@@ -1,0 +1,57 @@
+{
+  "$defs": {
+    "FabricanteProduto": {
+      "additionalProperties": false,
+      "description": "Fabricante opcional associado a um produto.",
+      "properties": {
+        "produto": {
+          "title": "Produto",
+          "type": "string"
+        },
+        "fabricante": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Fabricante"
+        }
+      },
+      "required": [
+        "produto",
+        "fabricante"
+      ],
+      "title": "FabricanteProduto",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Resposta para informação de fabricante ausente.",
+  "properties": {
+    "itens": {
+      "items": {
+        "$ref": "#/$defs/FabricanteProduto"
+      },
+      "title": "Itens",
+      "type": "array"
+    },
+    "ausencia_de_fabricante_sinalizada": {
+      "title": "Ausencia De Fabricante Sinalizada",
+      "type": "boolean"
+    },
+    "explicacao": {
+      "title": "Explicacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "itens",
+    "ausencia_de_fabricante_sinalizada",
+    "explicacao"
+  ],
+  "title": "Fabricantes",
+  "type": "object"
+}

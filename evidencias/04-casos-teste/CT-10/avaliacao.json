@@ -1,0 +1,35 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "produto correto",
+      "atendeu": true,
+      "esperado": "Produto Aurora",
+      "observado": "Produto Aurora"
+    },
+    {
+      "criterio": "preço vigente",
+      "atendeu": true,
+      "esperado": 129.9,
+      "observado": 129.9
+    },
+    {
+      "criterio": "preço histórico",
+      "atendeu": true,
+      "esperado": 119.9,
+      "observado": 119.9
+    },
+    {
+      "criterio": "conflito sinalizado",
+      "atendeu": true,
+      "esperado": true,
+      "observado": true
+    }
+  ],
+  "pontuacao": 2,
+  "status": "A",
+  "falha_critica": false,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

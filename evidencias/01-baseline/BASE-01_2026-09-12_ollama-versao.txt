@@ -1,0 +1,5 @@
+ID: BASE-01
+Data: 12/09/2026
+Comando: ollama --version
+Resultado: ollama version is 0.34.0
+Finalidade: registrar a versão do provedor local usado no experimento.

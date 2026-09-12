@@ -1,0 +1,5 @@
+* text=auto
+
+# Preserve generated PDFs and raw execution logs byte for byte.
+*.pdf binary
+evidencias/**/*.log -text

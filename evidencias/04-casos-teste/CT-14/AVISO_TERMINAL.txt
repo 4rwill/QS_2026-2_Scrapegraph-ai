@@ -1,0 +1,8 @@
+Após a conclusão controlada do CT-14, o terminal emitiu:
+
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+
+O aviso ocorreu depois de o timeout ter encerrado a execução em 1,909 segundo,
+sem saída fabricada. Foi preservado para análise do ciclo de vida assíncrono.

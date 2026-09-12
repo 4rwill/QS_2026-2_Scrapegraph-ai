@@ -1,0 +1,13 @@
+ID: BASE-02
+Data: 12/09/2026
+Comandos: ollama list; ollama show llama3.2
+Modelo: llama3.2:latest
+ID: a80c4f17acd5
+Tamanho local: 2.0 GB
+Arquitetura: llama
+Parâmetros: 3.2B
+Contexto informado pelo modelo: 131072
+Embedding length: 3072
+Quantização: Q4_K_M
+Capacidades informadas: completion, tools
+Finalidade: congelar a identificação técnica do modelo antes dos testes.

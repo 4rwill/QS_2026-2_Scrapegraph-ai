@@ -1,0 +1,65 @@
+{
+  "$defs": {
+    "Produto": {
+      "additionalProperties": false,
+      "description": "Produto do catálogo controlado.",
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "nome": {
+          "title": "Nome",
+          "type": "string"
+        },
+        "categoria": {
+          "title": "Categoria",
+          "type": "string"
+        },
+        "preco_brl": {
+          "title": "Preco Brl",
+          "type": "number"
+        },
+        "disponivel": {
+          "title": "Disponivel",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "nome",
+        "categoria",
+        "preco_brl",
+        "disponivel"
+      ],
+      "title": "Produto",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Interpretação controlada de um prompt mínimo.",
+  "properties": {
+    "interpretacao": {
+      "title": "Interpretacao",
+      "type": "string"
+    },
+    "necessita_esclarecimento": {
+      "title": "Necessita Esclarecimento",
+      "type": "boolean"
+    },
+    "produtos": {
+      "items": {
+        "$ref": "#/$defs/Produto"
+      },
+      "title": "Produtos",
+      "type": "array"
+    }
+  },
+  "required": [
+    "interpretacao",
+    "necessita_esclarecimento",
+    "produtos"
+  ],
+  "title": "EntradaCurta",
+  "type": "object"
+}

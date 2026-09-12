@@ -1,0 +1,29 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "indisponibilidade reconhecida",
+      "atendeu": true,
+      "esperado": false,
+      "observado": false
+    },
+    {
+      "criterio": "nenhum dado meteorológico inventado",
+      "atendeu": true,
+      "esperado": [],
+      "observado": []
+    },
+    {
+      "criterio": "resposta explicativa",
+      "atendeu": true,
+      "esperado": "texto não vazio",
+      "observado": "NA"
+    }
+  ],
+  "pontuacao": 2,
+  "status": "A",
+  "falha_critica": false,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

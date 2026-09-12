@@ -1,0 +1,1 @@
+Extraia os produtos. Se a fonte não responder dentro do limite, encerre sem fabricar resultado.
