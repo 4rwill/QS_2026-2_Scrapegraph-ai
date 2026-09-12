@@ -1,0 +1,8 @@
+{
+  "criterio_promocao_definido": false,
+  "produtos_em_promocao": [
+    "Produto Aurora",
+    "Produto Cedro"
+  ],
+  "explicacao": "Limitação: não há critério de promoção definido, portanto, não há produtos em promoção."
+}

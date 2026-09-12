@@ -1,0 +1,1 @@
+Extraia os produtos em promoção. Se o critério não estiver definido, não invente uma regra e explique a limitação.

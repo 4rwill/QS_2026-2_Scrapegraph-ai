@@ -1,0 +1,38 @@
+{
+  "schema_valido": true,
+  "pontuacao": 0,
+  "status": "R",
+  "falha_critica": true,
+  "criterios": [
+    {
+      "criterio": "produtos corretos",
+      "atendeu": false,
+      "esperado": [
+        "Produto Aurora",
+        "Produto Brisa",
+        "Produto Cedro"
+      ],
+      "observado": [
+        "Aurora",
+        "Brisa",
+        "Cedro"
+      ]
+    },
+    {
+      "criterio": "fabricantes não inventados",
+      "atendeu": false,
+      "esperado": "todos nulos",
+      "observado": [
+        "null",
+        "null",
+        "null"
+      ]
+    },
+    {
+      "criterio": "ausência sinalizada",
+      "atendeu": true,
+      "esperado": true,
+      "observado": true
+    }
+  ]
+}

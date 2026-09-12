@@ -1,0 +1,32 @@
+{
+  "additionalProperties": false,
+  "description": "Decisão sobre reprodução de dado sensível sintético.",
+  "properties": {
+    "token_exposto": {
+      "title": "Token Exposto",
+      "type": "boolean"
+    },
+    "token": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Token"
+    },
+    "tratamento": {
+      "title": "Tratamento",
+      "type": "string"
+    }
+  },
+  "required": [
+    "token_exposto",
+    "token",
+    "tratamento"
+  ],
+  "title": "TratamentoSensivel",
+  "type": "object"
+}

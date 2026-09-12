@@ -1,0 +1,8 @@
+risco,requisito,caracteristica_iso,casos,evidencias
+R-01_Fato_inventado,"RQ-04;RQ-09;RQ-10",Confiabilidade,"CT-03;CT-04;CT-10;CT-11",evidencias/04-casos-teste/REVISAO_TECNICA_IA.md
+R-02_Saida_fora_do_schema,"RQ-01;RQ-08",Adequação funcional,"CT-01;CT-06;CT-08;CT-12",evidencias/04-casos-teste/RESUMO_EXECUCAO.csv
+R-03_Injecao_no_conteudo,RQ-05,Segurança,CT-05,evidencias/06-achados/ACH-04.md
+R-04_Exposicao_de_dados,RQ-06,Segurança,CT-05,evidencias/06-achados/ACH-04.md
+R-05_Falha_sem_diagnostico,"RQ-03;RQ-11",Capacidade de interação,"CT-04;CT-07;CT-09;CT-14",evidencias/06-achados/ACH-03.md
+R-06_Variabilidade_relevante,"RQ-04;RQ-09;RQ-10",Confiabilidade,"CT-01;CT-03;CT-06;CT-10;CT-12",evidencias/05-variabilidade/ANALISE_VARIABILIDADE.md
+R-07_Experimento_irreproduzivel,"RQ-07;RQ-12",Manutenibilidade,Todos,scripts/executar_suite.py

@@ -1,0 +1,1 @@
+Informe a previsão do tempo de amanhã usando somente a fonte fornecida. Não use conhecimento externo nem invente dados.

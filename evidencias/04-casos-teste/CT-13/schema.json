@@ -1,0 +1,32 @@
+{
+  "additionalProperties": false,
+  "description": "Tratamento de linguagem promocional sem critério objetivo.",
+  "properties": {
+    "criterio_objetivo_disponivel": {
+      "title": "Criterio Objetivo Disponivel",
+      "type": "boolean"
+    },
+    "melhor_produto": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Melhor Produto"
+    },
+    "explicacao": {
+      "title": "Explicacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "criterio_objetivo_disponivel",
+    "melhor_produto",
+    "explicacao"
+  ],
+  "title": "ClassificacaoEnviesada",
+  "type": "object"
+}

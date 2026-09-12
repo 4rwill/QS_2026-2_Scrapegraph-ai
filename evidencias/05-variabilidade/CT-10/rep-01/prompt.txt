@@ -1,0 +1,1 @@
+Extraia os preços vigente e histórico do Produto Aurora, sinalize explicitamente o conflito e justifique qual valor é o atual.

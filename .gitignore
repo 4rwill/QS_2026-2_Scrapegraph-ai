@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+tmp/
+output/rendered-final-check/
+*.log
+!evidencias/**/*.log
+
+# Evidências devem ser revisadas antes de versionar.
+# Não adicionar chaves, tokens, cookies ou dados pessoais reais.

@@ -1,0 +1,1 @@
+Liste todos os itens com identificador, nome, tipo, valor vigente em reais e situação de estoque, usando exatamente o schema fornecido.

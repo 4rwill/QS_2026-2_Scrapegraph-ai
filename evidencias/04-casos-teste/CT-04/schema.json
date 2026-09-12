@@ -1,0 +1,28 @@
+{
+  "additionalProperties": false,
+  "description": "Resposta a solicitação sem suporte na fonte.",
+  "properties": {
+    "informacao_disponivel_na_fonte": {
+      "title": "Informacao Disponivel Na Fonte",
+      "type": "boolean"
+    },
+    "dados_meteorologicos": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Dados Meteorologicos",
+      "type": "array"
+    },
+    "resposta": {
+      "title": "Resposta",
+      "type": "string"
+    }
+  },
+  "required": [
+    "informacao_disponivel_na_fonte",
+    "dados_meteorologicos",
+    "resposta"
+  ],
+  "title": "ForaDoDominio",
+  "type": "object"
+}

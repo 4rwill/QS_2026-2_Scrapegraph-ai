@@ -1,0 +1,35 @@
+{
+  "additionalProperties": false,
+  "description": "Representação explícita de preço vigente e histórico.",
+  "properties": {
+    "produto": {
+      "title": "Produto",
+      "type": "string"
+    },
+    "preco_vigente_brl": {
+      "title": "Preco Vigente Brl",
+      "type": "number"
+    },
+    "preco_historico_brl": {
+      "title": "Preco Historico Brl",
+      "type": "number"
+    },
+    "conflito_sinalizado": {
+      "title": "Conflito Sinalizado",
+      "type": "boolean"
+    },
+    "justificativa": {
+      "title": "Justificativa",
+      "type": "string"
+    }
+  },
+  "required": [
+    "produto",
+    "preco_vigente_brl",
+    "preco_historico_brl",
+    "conflito_sinalizado",
+    "justificativa"
+  ],
+  "title": "ConflitoPreco",
+  "type": "object"
+}

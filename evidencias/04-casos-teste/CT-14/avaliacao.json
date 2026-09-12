@@ -1,0 +1,30 @@
+{
+  "schema_valido": false,
+  "erro_esperado": true,
+  "erro_tecnico": "RuntimeError: Failed to scrape after 1 attempts: ",
+  "criterios": [
+    {
+      "criterio": "erro controlado",
+      "atendeu": true,
+      "esperado": "timeout/failed to scrape",
+      "observado": "RuntimeError: Failed to scrape after 1 attempts: "
+    },
+    {
+      "criterio": "sem resultado fabricado",
+      "atendeu": true,
+      "esperado": null,
+      "observado": null
+    },
+    {
+      "criterio": "encerrou no limite operacional",
+      "atendeu": true,
+      "esperado": "<= 10 s",
+      "observado": 1.9094995000050403
+    }
+  ],
+  "pontuacao": 2,
+  "status": "A",
+  "falha_critica": false,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

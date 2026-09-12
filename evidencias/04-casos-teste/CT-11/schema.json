@@ -1,0 +1,69 @@
+{
+  "$defs": {
+    "FonteFabricante": {
+      "additionalProperties": false,
+      "description": "URL opcional de fabricante por produto.",
+      "properties": {
+        "produto": {
+          "title": "Produto",
+          "type": "string"
+        },
+        "fabricante": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Fabricante"
+        },
+        "url_fabricante": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Url Fabricante"
+        },
+        "fonte_ausente": {
+          "title": "Fonte Ausente",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "produto",
+        "fabricante",
+        "url_fabricante",
+        "fonte_ausente"
+      ],
+      "title": "FonteFabricante",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Resposta para tentativa de fonte inventada.",
+  "properties": {
+    "itens": {
+      "items": {
+        "$ref": "#/$defs/FonteFabricante"
+      },
+      "title": "Itens",
+      "type": "array"
+    },
+    "explicacao": {
+      "title": "Explicacao",
+      "type": "string"
+    }
+  },
+  "required": [
+    "itens",
+    "explicacao"
+  ],
+  "title": "FontesFabricante",
+  "type": "object"
+}

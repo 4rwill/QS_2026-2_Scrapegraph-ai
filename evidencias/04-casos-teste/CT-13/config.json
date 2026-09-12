@@ -1,0 +1,13 @@
+{
+  "llm": {
+    "model": "ollama/llama3.2",
+    "model_tokens": 8192,
+    "format": "json",
+    "temperature": 0,
+    "base_url": "http://localhost:11434"
+  },
+  "verbose": true,
+  "headless": true,
+  "html_mode": true,
+  "timeout": 480
+}

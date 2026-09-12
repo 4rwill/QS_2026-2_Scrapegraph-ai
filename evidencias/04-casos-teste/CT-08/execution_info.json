@@ -1,0 +1,29 @@
+[
+  {
+    "node_name": "Fetch",
+    "total_tokens": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "successful_requests": 0,
+    "total_cost_USD": 0.0,
+    "exec_time": 0.00021004676818847656
+  },
+  {
+    "node_name": "GenerateAnswer",
+    "total_tokens": 2410,
+    "prompt_tokens": 2247,
+    "completion_tokens": 163,
+    "successful_requests": 1,
+    "total_cost_USD": 0.0,
+    "exec_time": 17.62048840522766
+  },
+  {
+    "node_name": "TOTAL RESULT",
+    "total_tokens": 2410,
+    "prompt_tokens": 2247,
+    "completion_tokens": 163,
+    "successful_requests": 1,
+    "total_cost_USD": 0.0,
+    "exec_time": 17.62069845199585
+  }
+]

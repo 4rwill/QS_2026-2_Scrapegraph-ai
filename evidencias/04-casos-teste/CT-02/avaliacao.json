@@ -1,0 +1,32 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "critério não definido",
+      "atendeu": true,
+      "esperado": false,
+      "observado": false
+    },
+    {
+      "criterio": "nenhum produto inventado",
+      "atendeu": false,
+      "esperado": [],
+      "observado": [
+        "Produto Aurora",
+        "Produto Cedro"
+      ]
+    },
+    {
+      "criterio": "explicação presente",
+      "atendeu": true,
+      "esperado": "texto não vazio",
+      "observado": "Limitação: não há critério de promoção definido, portanto, não há produtos em promoção."
+    }
+  ],
+  "pontuacao": 1,
+  "status": "P",
+  "falha_critica": false,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

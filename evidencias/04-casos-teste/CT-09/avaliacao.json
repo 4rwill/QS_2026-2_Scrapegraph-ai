@@ -1,0 +1,29 @@
+{
+  "schema_valido": true,
+  "erro_esperado": false,
+  "criterios": [
+    {
+      "criterio": "fonte indisponível",
+      "atendeu": true,
+      "esperado": false,
+      "observado": false
+    },
+    {
+      "criterio": "nenhum produto fabricado",
+      "atendeu": true,
+      "esperado": [],
+      "observado": []
+    },
+    {
+      "criterio": "mensagem compreensível",
+      "atendeu": true,
+      "esperado": "texto não vazio",
+      "observado": "Fonte nao encontrada"
+    }
+  ],
+  "pontuacao": 2,
+  "status": "A",
+  "falha_critica": false,
+  "revisao_tecnica_ia": "concluída",
+  "revisao_humana": "pendente"
+}

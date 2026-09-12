@@ -1,0 +1,7 @@
+{
+  "produto": "Aurora",
+  "preco_vigente_brl": 129.9,
+  "preco_historico_brl": 119.9,
+  "conflito_sinalizado": true,
+  "justificativa": "O preço vigente no catálogo é R$ 129,90, mas o preço histórico mencionado em um rascunho antigo é R$ 119,90, o que indica conflito."
+}

@@ -1,0 +1,6 @@
+ID: BASE-03
+Data: 12/09/2026
+Comando: ollama run llama3.2 "Responda exatamente: OK"
+Saída observada: OK
+Resultado: serviço local e inferência do modelo confirmados.
+Observação: esta verificação não usa o ScrapeGraphAI e não conta como caso de teste da avaliação.

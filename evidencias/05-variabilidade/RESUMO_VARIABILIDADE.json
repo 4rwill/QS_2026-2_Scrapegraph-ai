@@ -1,0 +1,87 @@
+{
+  "execucoes": 15,
+  "modelo": {
+    "scrapegraphai_commit": "c75c8084fae2d4f5ba01a8c218bc1168b67e3569",
+    "scrapegraphai_tag": "v2.2.4",
+    "ollama_version": "0.34.0",
+    "ollama_model": "llama3.2:latest",
+    "ollama_model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72"
+  },
+  "prompts": {
+    "CT-01": {
+      "saidas_distintas": 1,
+      "hashes": [
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1"
+      ],
+      "status": [
+        "A",
+        "A",
+        "A"
+      ],
+      "estavel_byte_a_byte": true,
+      "todas_execucoes_aceitas": true
+    },
+    "CT-03": {
+      "saidas_distintas": 1,
+      "hashes": [
+        "66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b",
+        "66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b",
+        "66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b"
+      ],
+      "status": [
+        "R",
+        "R",
+        "R"
+      ],
+      "estavel_byte_a_byte": true,
+      "todas_execucoes_aceitas": false
+    },
+    "CT-06": {
+      "saidas_distintas": 1,
+      "hashes": [
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1"
+      ],
+      "status": [
+        "A",
+        "A",
+        "A"
+      ],
+      "estavel_byte_a_byte": true,
+      "todas_execucoes_aceitas": true
+    },
+    "CT-10": {
+      "saidas_distintas": 1,
+      "hashes": [
+        "8ddd5553a58d7c7372326e8aad7098e6f875598c54f4bd5cb09551b7ade44044",
+        "8ddd5553a58d7c7372326e8aad7098e6f875598c54f4bd5cb09551b7ade44044",
+        "8ddd5553a58d7c7372326e8aad7098e6f875598c54f4bd5cb09551b7ade44044"
+      ],
+      "status": [
+        "P",
+        "P",
+        "P"
+      ],
+      "estavel_byte_a_byte": true,
+      "todas_execucoes_aceitas": false
+    },
+    "CT-12": {
+      "saidas_distintas": 1,
+      "hashes": [
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1",
+        "bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1"
+      ],
+      "status": [
+        "A",
+        "A",
+        "A"
+      ],
+      "estavel_byte_a_byte": true,
+      "todas_execucoes_aceitas": true
+    }
+  }
+}
