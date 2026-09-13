@@ -1,30 +1,41 @@
 # Índice de evidências
 
-Nenhum arquivo marcado como evidência deve ser criado para “preencher espaço”. Uma evidência só é válida quando resulta de uma ação observável e preserva contexto suficiente para auditoria.
+Esta área reúne apenas registros técnicos e observáveis produzidos durante a
+execução, a revisão e a preparação da entrega. Informações de planejamento ou
+decisões administrativas não precisam de uma pasta de evidência própria.
 
 ## Organização
 
 | Pasta | Prefixo | Conteúdo esperado |
 |---|---|---|
-| `00-administrativo/` | ADM | Reserva, autorização da equipe e decisões formais |
 | `01-baseline/` | BASE | Versão, commit, licença, ambiente e configuração |
-| `02-contexto-riscos/` | CTX | Stakeholders, riscos, supervisão e limites |
-| `03-requisitos-iso/` | REQ | Revisões de requisitos e aplicação da ISO |
-| `04-casos-teste/` | EV-CT | Entradas, saídas, logs, capturas e avaliação dos testes |
-| `05-variabilidade/` | VAR | Três repetições de cinco prompts e comparações |
-| `06-achados/` | ACH | Evidência consolidada, severidade e recomendação |
-| `07-entrega/` | ENT | Validação de PDFs, links, vídeo e comprovantes de envio |
+| `02-casos-teste/` | EV-CT | Entradas, saídas, logs, capturas e avaliação dos testes |
+| `03-variabilidade/` | VAR | Três repetições de cinco prompts e comparações |
+| `04-achados/` | ACH | Evidência consolidada, severidade e recomendação |
+| `05-entrega/` | ENT | Validação de PDFs, links, vídeo e comprovantes de envio |
+
+## Onde estão contexto, riscos, requisitos e ISO
+
+Esses itens fazem parte da análise do trabalho, mas não constituem evidências
+de execução isoladas:
+
+- contexto, partes interessadas, riscos, limites e supervisão:
+  `docs/ESCOPO_E_METODOLOGIA.md` e relatório técnico;
+- requisitos verificáveis: `dados/requisitos.csv`;
+- relação entre requisitos, casos de teste e características da ISO/IEC 25010:
+  `dados/matriz_rastreabilidade.csv`;
+- síntese e interpretação dos requisitos e da ISO: relatório técnico.
 
 ## Registro mestre
 
 | Bloco | Quantidade/estado | Índice principal | Revisão humana |
 |---|---|---|---|
 | Baseline | 3 registros do ambiente | `evidencias/01-baseline/README.md` | Validado por Iuri em 13/09/2026 |
-| Suíte principal | 14/14 casos executados | `evidencias/04-casos-teste/RESUMO_EXECUCAO.csv` | Concluída conforme `docs/REVISORES.md` |
-| Revisão técnica | 14 casos consolidados | `evidencias/04-casos-teste/REVISAO_TECNICA_IA.md` | Confirmada pelos revisores humanos |
-| Variabilidade | 15/15 execuções | `evidencias/05-variabilidade/ANALISE_VARIABILIDADE.md` | Validada por Pedro em 13/09/2026 |
-| Achados | 6 confirmados | `evidencias/06-achados/README.md` | Validados por Eduardo Ferreira em 13/09/2026 |
-| PDF | 10 páginas verificadas | `evidencias/07-entrega/VALIDACAO_PDF_PRELIMINAR.md` | Nova versão final ainda necessária |
+| Suíte principal | 14/14 casos executados | `evidencias/02-casos-teste/RESUMO_EXECUCAO.csv` | Concluída conforme `docs/REVISORES.md` |
+| Revisão técnica | 14 casos consolidados | `evidencias/02-casos-teste/REVISAO_TECNICA_IA.md` | Confirmada pelos revisores humanos |
+| Variabilidade | 15/15 execuções | `evidencias/03-variabilidade/ANALISE_VARIABILIDADE.md` | Validada por Pedro em 13/09/2026 |
+| Achados | 6 confirmados | `evidencias/04-achados/README.md` | Validados por Eduardo Ferreira em 13/09/2026 |
+| PDF | 10 páginas verificadas | `evidencias/05-entrega/VALIDACAO_PDF_PRELIMINAR.md` | Nova versão final ainda necessária |
 
 ## Convenção de nomes
 

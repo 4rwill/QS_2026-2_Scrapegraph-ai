@@ -28,9 +28,9 @@ equipe. Os caminhos indicados permitem verificar o objeto revisado.
 | Artur José Soares Santos | Revisão de contexto, ISO, ausência/conflito e três casos | CT-03, CT-07 e CT-10; seção ISO | 13/09/2026 | Equipe 08 — confirmação consolidada |
 | Christian Will Silva Santos Nunes | Auditoria de evidências, fontes e três casos | CT-03, CT-08 e CT-11; `evidencias/README.md` | 13/09/2026 | Equipe 08 — confirmação consolidada |
 | Eduardo Curcino Monteiro Filho | Revisão de metodologia, interação, schema e três casos | CT-04, CT-07 e CT-12; `docs/ESCOPO_E_METODOLOGIA.md` | 13/09/2026 | Equipe 08 — confirmação consolidada |
-| Eduardo Ferreira Bomfim Filho | Revisão de achados, viés, melhoria e três casos | CT-04, CT-08 e CT-13; `evidencias/06-achados/` | 13/09/2026 | Equipe 08 — confirmação consolidada |
+| Eduardo Ferreira Bomfim Filho | Revisão de achados, viés, melhoria e três casos | CT-04, CT-08 e CT-13; `evidencias/04-achados/` | 13/09/2026 | Equipe 08 — confirmação consolidada |
 | Iuri Maurício Maia Pereira | Revisão de baseline, segurança, privacidade e quatro casos | CT-01, CT-05, CT-09 e CT-12; `evidencias/01-baseline/` | 13/09/2026 | Equipe 08 — confirmação consolidada |
-| Pedro César Figueiredo Carneiro | Revisão de variabilidade, reformulação, conflito e quatro casos | CT-01, CT-06, CT-10 e CT-13; `evidencias/05-variabilidade/` | 13/09/2026 | Equipe 08 — confirmação consolidada |
+| Pedro César Figueiredo Carneiro | Revisão de variabilidade, reformulação, conflito e quatro casos | CT-01, CT-06, CT-10 e CT-13; `evidencias/03-variabilidade/` | 13/09/2026 | Equipe 08 — confirmação consolidada |
 | Rian Purificação de Oliveira | Revisão de ambiguidade, disponibilidade, segurança e quatro casos | CT-02, CT-05, CT-11 e CT-14; `README.md` e `VIDEO.md` | 13/09/2026 | Equipe 08 — confirmação consolidada |
 
 ## Trabalho realizado com IA

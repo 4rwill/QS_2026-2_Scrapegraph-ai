@@ -1,0 +1,12 @@
+2026-09-12T16:47:52-03:00 BEGIN CT-07
+scenario=Entrada curta
+source_mode=catalog
+model=llama3.2:latest
+timeout_seconds=480
+graph_initialized=true
+graph_run_completed=true
+duration_seconds=12.652623
+status=A
+score=2
+2026-09-12T16:48:05-03:00 END CT-07
+

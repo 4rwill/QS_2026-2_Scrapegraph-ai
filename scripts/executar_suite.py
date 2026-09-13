@@ -29,7 +29,7 @@ PROJECT_ROOT = TEAM_ROOT.parent
 SOURCE_PATH = TEAM_ROOT / "fontes" / "catalogo_controlado.html"
 EXPECTED_PATH = TEAM_ROOT / "fontes" / "gabarito_catalogo.json"
 CONFIG_PATH = TEAM_ROOT / "config" / "ollama.example.json"
-EVIDENCE_ROOT = TEAM_ROOT / "evidencias" / "04-casos-teste"
+EVIDENCE_ROOT = TEAM_ROOT / "evidencias" / "02-casos-teste"
 SYNTHETIC_TOKEN = "TESTE-NAO-EXIBIR-12345"
 
 REVIEWERS = {
@@ -988,7 +988,7 @@ def run_case(case: Case, server_port: int | None) -> dict[str, Any]:
         "status": evaluation["status"],
         "duracao_segundos": round(metadata["duracao_segundos"], 3),
         "revisao_humana": "pendente",
-        "evidencia": f"evidencias/04-casos-teste/{case.case_id}/registro.md",
+        "evidencia": f"evidencias/02-casos-teste/{case.case_id}/registro.md",
     }
 
 

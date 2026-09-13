@@ -2,8 +2,8 @@
 
 | ID | Data | Decisão | Justificativa | Estado |
 |---|---|---|---|---|
-| DEC-01 | 12/09/2026 | Trabalhar com 8 integrantes | Exceção autorizada para a equipe | Confirmada; arquivar comprovação |
-| DEC-02 | 12/09/2026 | Avaliar o ScrapeGraphAI | Projeto já reservado no Classroom | Confirmada; arquivar reserva |
+| DEC-01 | 12/09/2026 | Trabalhar com 8 integrantes | Exceção autorizada para a equipe | Confirmada |
+| DEC-02 | 12/09/2026 | Avaliar o ScrapeGraphAI | Projeto já reservado no Classroom | Confirmada |
 | DEC-03 | 12/09/2026 | Usar este repositório para os artefatos acadêmicos | Centraliza relatório, evidências e vídeo | Confirmada |
 | DEC-04 | 12/09/2026 | Avaliar o SmartScraperGraph com schema e HTML controlado | Recorte reproduzível e alinhado a extração estruturada e fontes | Adotada |
 | DEC-05 | 12/09/2026 | Criar 12 requisitos, um por categoria citada no enunciado | Evita lacuna causada pela ambiguidade de cobertura | Adotada |

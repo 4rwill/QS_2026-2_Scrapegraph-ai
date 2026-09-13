@@ -128,7 +128,6 @@ ser apresentados como conclusões humanas até a assinatura dos revisores.
 ### Entrega
 
 - [ ] Inserir instituição, curso/turma e docente.
-- [ ] Arquivar comprovante da reserva e autorização para oito integrantes.
 - [x] Preencher contribuições individuais conforme confirmação da equipe.
 - [ ] Produzir apresentação e roteiro.
 - [ ] Gravar vídeo de até 10 minutos com todos os integrantes.
@@ -156,12 +155,12 @@ ser apresentados como conclusões humanas até a assinatura dos revisores.
 ## 8. Evidências necessárias
 
 - baseline: `evidencias/01-baseline/`;
-- casos: `evidencias/04-casos-teste/`;
-- resumo da suíte: `evidencias/04-casos-teste/RESUMO_EXECUCAO.csv`;
-- revisão técnica: `evidencias/04-casos-teste/REVISAO_TECNICA_IA.md`;
-- variabilidade: `evidencias/05-variabilidade/`;
-- achados: `evidencias/06-achados/`;
-- validação do PDF: `evidencias/07-entrega/VALIDACAO_PDF_PRELIMINAR.md`;
+- casos: `evidencias/02-casos-teste/`;
+- resumo da suíte: `evidencias/02-casos-teste/RESUMO_EXECUCAO.csv`;
+- revisão técnica: `evidencias/02-casos-teste/REVISAO_TECNICA_IA.md`;
+- variabilidade: `evidencias/03-variabilidade/`;
+- achados: `evidencias/04-achados/`;
+- validação do PDF: `evidencias/05-entrega/VALIDACAO_PDF_PRELIMINAR.md`;
 - revisão humana: `docs/REVISORES.md` e `registro.md` de cada caso.
 
 ## 9. Pontos de atenção
@@ -180,7 +179,6 @@ ser apresentados como conclusões humanas até a assinatura dos revisores.
 ## 10. Dúvidas em aberto
 
 - instituição, curso/turma e docente;
-- comprovação arquivável da reserva e da autorização para oito integrantes;
 - significado oficial de `A/P/R`;
 - existência de rubrica ou pesos adicionais no Classroom;
 - formato preferido da apresentação;

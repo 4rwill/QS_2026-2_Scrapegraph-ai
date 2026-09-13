@@ -25,7 +25,7 @@ PROJECT_ROOT = TEAM_ROOT.parent
 SOURCE_PATH = TEAM_ROOT / "fontes" / "catalogo_controlado.html"
 EXPECTED_PATH = TEAM_ROOT / "fontes" / "gabarito_catalogo.json"
 CONFIG_PATH = TEAM_ROOT / "config" / "ollama.example.json"
-EVIDENCE_DIR = TEAM_ROOT / "evidencias" / "04-casos-teste" / "CT-01"
+EVIDENCE_DIR = TEAM_ROOT / "evidencias" / "02-casos-teste" / "CT-01"
 
 PROMPT = (
     "Extraia todos os produtos do catálogo HTML. Retorne somente dados "

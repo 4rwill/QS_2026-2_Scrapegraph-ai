@@ -32,7 +32,7 @@ from executar_suite import (
 
 
 TEAM_ROOT = Path(__file__).resolve().parents[1]
-EVIDENCE_ROOT = TEAM_ROOT / "evidencias" / "05-variabilidade"
+EVIDENCE_ROOT = TEAM_ROOT / "evidencias" / "03-variabilidade"
 
 VARIABILITY_CASES = {
     "CT-01": Case(
@@ -193,7 +193,7 @@ def run_repetition(
         "duracao_segundos": round(duration, 3),
         "tokens": total_info.get("total_tokens", 0),
         "saida_sha256_canonico": output_hash,
-        "evidencia": f"evidencias/05-variabilidade/{case.case_id}/rep-{repetition:02d}",
+        "evidencia": f"evidencias/03-variabilidade/{case.case_id}/rep-{repetition:02d}",
     }
 
 

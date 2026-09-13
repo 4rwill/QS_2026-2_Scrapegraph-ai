@@ -1,0 +1,16 @@
+caso_base,repeticao,pontuacao,status,duracao_segundos,tokens,saida_sha256_canonico,evidencia
+CT-01,1,2,A,24.269,1480,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-01/rep-01
+CT-01,2,2,A,7.688,1480,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-01/rep-02
+CT-01,3,2,A,7.665,1480,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-01/rep-03
+CT-03,1,0,R,10.976,1389,66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b,evidencias/03-variabilidade/CT-03/rep-01
+CT-03,2,0,R,5.687,1389,66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b,evidencias/03-variabilidade/CT-03/rep-02
+CT-03,3,0,R,5.682,1389,66124e2f4a6f2fb989f56c15d3f91a397f5eed796f19d3ab247d95536f31ec4b,evidencias/03-variabilidade/CT-03/rep-03
+CT-06,1,2,A,11.84,1437,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-06/rep-01
+CT-06,2,2,A,7.808,1437,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-06/rep-02
+CT-06,3,2,A,7.648,1437,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-06/rep-03
+CT-10,1,1,P,10.585,1336,8ddd5553a58d7c7372326e8aad7098e6f875598c54f4bd5cb09551b7ade44044,evidencias/03-variabilidade/CT-10/rep-01
+CT-10,2,1,P,5.72,1336,8ddd5553a58d7c7372326e8aad7098e6f875598c54f4bd5cb09551b7ade44044,evidencias/03-variabilidade/CT-10/rep-02
+CT-10,3,1,P,5.631,1336,8ddd5553a58d7c7372326e8aad7098e6f875598c54f4bd5cb09551b7ade44044,evidencias/03-variabilidade/CT-10/rep-03
+CT-12,1,2,A,11.599,1420,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-12/rep-01
+CT-12,2,2,A,7.665,1427,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-12/rep-02
+CT-12,3,2,A,7.654,1427,bbacae733db03420febe05b35e59f26e739b573fa8db1bac05e88f789f9029f1,evidencias/03-variabilidade/CT-12/rep-03

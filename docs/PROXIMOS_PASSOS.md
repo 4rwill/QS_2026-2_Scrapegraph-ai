@@ -3,8 +3,6 @@
 ## Dados humanos necessários
 
 - instituição, curso/turma e docente;
-- confirmação/documento da autorização para 8 integrantes;
-- captura ou comprovante da reserva no Classroom;
 - dados finais de responsáveis pelo vídeo, apresentação e entrega.
 
 ## Recurso técnico necessário para executar os testes

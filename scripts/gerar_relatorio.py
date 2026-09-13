@@ -765,7 +765,7 @@ def build_story() -> list[object]:
             ),
             heading("6.2 Protocolo de evidências", 2),
             paragraph(
-                "Cada caso terá pasta própria em evidencias/04-casos-teste, contendo registro.md, "
+                "Cada caso terá pasta própria em evidencias/02-casos-teste, contendo registro.md, "
                 "entrada, saída integral, log e captura apenas quando ela acrescentar contexto. O "
                 "registro incluirá data/hora, responsável, revisor, commit, modelo/provedor, "
                 "parâmetros, fonte/hash, requisito, pontuação e justificativa."
@@ -853,7 +853,7 @@ def build_story() -> list[object]:
                 tiny=True,
             ),
             paragraph(
-                "Os registros completos em evidencias/06-achados incluem impacto, recomendação, "
+                "Os registros completos em evidencias/04-achados incluem impacto, recomendação, "
                 "dependências, indicador, risco residual e critério de conclusão."
             ),
             PageBreak(),
