@@ -9,9 +9,9 @@ Repositório acadêmico da Atividade 1 (AV1) de Qualidade de Software.
 O ambiente experimental, o protocolo e os 14 casos de teste foram executados. A
 revisão técnica por IA resultou em 8 casos `A`, 3 `P` e 3 `R`, totalizando
 19/28 (67,9%). Também foram concluídas 15 execuções de variabilidade (cinco
-prompts, três repetições cada), todas estáveis byte a byte. A validação humana
-dos resultados permanece pendente e está distribuída em rodízio entre os oito
-integrantes.
+prompts, três repetições cada), todas estáveis byte a byte. Em 13/09/2026, os
+oito integrantes concluíram o rodízio de validação humana e confirmaram as
+classificações técnicas sem alterações.
 
 ## Recorte adotado
 
@@ -68,8 +68,8 @@ Toda afirmação de resultado deve apontar para uma evidência com ID único. A 
 - [ ] Apresentação em PDF ou slides.
 - [x] Arquivos estruturados iniciais de requisitos e casos de teste.
 - [x] Evidências técnicas dos 14 casos e das 15 repetições registradas.
-- [~] Declaração de uso de IA generativa.
-- [~] Tabela de contribuição individual.
+- [x] Declaração de uso de IA generativa estruturada e revisada.
+- [x] Tabela de contribuição individual preenchida conforme confirmação da equipe.
 - [ ] Vídeo de até 10 minutos com participação de todos.
 - [ ] Apresentação oral de 10 a 12 minutos.
 

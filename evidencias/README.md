@@ -19,12 +19,12 @@ Nenhum arquivo marcado como evidência deve ser criado para “preencher espaço
 
 | Bloco | Quantidade/estado | Índice principal | Revisão humana |
 |---|---|---|---|
-| Baseline | 3 registros do ambiente | `evidencias/01-baseline/README.md` | Pendente |
-| Suíte principal | 14/14 casos executados | `evidencias/04-casos-teste/RESUMO_EXECUCAO.csv` | Pendente conforme `docs/REVISORES.md` |
-| Revisão técnica | 14 casos consolidados | `evidencias/04-casos-teste/REVISAO_TECNICA_IA.md` | Não substitui revisão humana |
-| Variabilidade | 15/15 execuções | `evidencias/05-variabilidade/ANALISE_VARIABILIDADE.md` | Pendente |
-| Achados | 6 preliminares | `evidencias/06-achados/README.md` | Pendente |
-| PDF | 10 páginas verificadas | `evidencias/07-entrega/VALIDACAO_PDF_PRELIMINAR.md` | Revisão final pendente |
+| Baseline | 3 registros do ambiente | `evidencias/01-baseline/README.md` | Validado por Iuri em 13/09/2026 |
+| Suíte principal | 14/14 casos executados | `evidencias/04-casos-teste/RESUMO_EXECUCAO.csv` | Concluída conforme `docs/REVISORES.md` |
+| Revisão técnica | 14 casos consolidados | `evidencias/04-casos-teste/REVISAO_TECNICA_IA.md` | Confirmada pelos revisores humanos |
+| Variabilidade | 15/15 execuções | `evidencias/05-variabilidade/ANALISE_VARIABILIDADE.md` | Validada por Pedro em 13/09/2026 |
+| Achados | 6 confirmados | `evidencias/06-achados/README.md` | Validados por Eduardo Ferreira em 13/09/2026 |
+| PDF | 10 páginas verificadas | `evidencias/07-entrega/VALIDACAO_PDF_PRELIMINAR.md` | Nova versão final ainda necessária |
 
 ## Convenção de nomes
 

@@ -24,7 +24,7 @@
 - 9 resultados `A`, 3 resultados `P` e 3 resultados `R`;
 - pontuação: **21/30 (70%)**;
 - 5/5 prompts produziram uma única saída canônica nas três repetições;
-- revisão humana das amostras: pendente.
+- revisão humana das amostras: concluída por Pedro César Figueiredo Carneiro em 13/09/2026, sem divergências.
 
 ## Conclusão técnica
 

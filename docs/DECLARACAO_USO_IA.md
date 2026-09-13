@@ -6,7 +6,7 @@
 |---|---|
 | Ferramenta/modelo | Codex, modelo disponibilizado no ambiente da atividade; versão exata a registrar antes da entrega |
 | Finalidade | Leitura do enunciado, planejamento, estruturação do repositório, proposta de recorte, elaboração inicial de requisitos/testes, geração do relatório preliminar, execução automatizada de 14 casos e 15 repetições e revisão técnica inicial sob orientação da equipe |
-| Limite de autoridade | A IA não aprova resultados. Evidências, fontes e conclusões devem ser revisadas pela equipe |
+| Limite de autoridade | A IA produziu o parecer técnico inicial; evidências, fontes e conclusões foram posteriormente revisadas pela equipe |
 
 ## Até cinco prompts representativos
 
@@ -22,8 +22,8 @@
 |---|---|---|
 | Recorte no SmartScraperGraph com schema e HTML controlado | Aproveitada | Revisão da equipe e aderência ao enunciado |
 | 12 requisitos cobrindo todas as categorias | Aproveitada | Revisão de mensurabilidade e pertinência |
-| 14 casos de teste | Aproveitada | Saídas, logs e avaliações preservados; revisão humana pendente |
-| Rodízio de revisores | Aproveitada | Cada caso possui dois nomes; assinaturas e decisões ainda pendentes |
+| 14 casos de teste | Aproveitada | Saídas, logs e avaliações preservados; classificações confirmadas pela equipe em 13/09/2026 |
+| Rodízio de revisores | Aproveitada | Todos os casos foram conferidos por dois integrantes, sem divergências |
 | Resultados experimentais sem modelo configurado | Rejeitada por princípio | Nenhum resultado deve ser inventado |
 | Estrutura de evidências por etapa e ID | Aproveitada | Conferência de links e arquivos na entrega |
 
@@ -31,7 +31,6 @@
 
 - Os nomes dos integrantes foram fornecidos pela equipe e registrados em ordem alfabética, sem matrículas; instituição, turma, docente e URL futura do vídeo continuam pendentes.
 - O Ollama e o modelo local foram instalados; os 14 casos e as 15 repetições
-  foram executados e avaliados tecnicamente pela IA, mas ainda precisam de
-  revisão humana identificada.
+  foram executados pela IA e revisados pelos integrantes em 13/09/2026.
 - A interpretação de `A/P/R` é uma convenção interna até confirmação docente.
-- Toda referência técnica e resultado deverá ser revisado por integrante identificado.
+- A confirmação das revisões foi consolidada a partir da declaração do representante da Equipe 08.

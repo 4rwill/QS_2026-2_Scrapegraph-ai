@@ -14,17 +14,16 @@ Cada achado deverá possuir um arquivo `ACH-__.md` com:
 
 Hipóteses de risco não devem ser apresentadas como achados confirmados antes da execução.
 
-## Achados técnicos preliminares
+## Achados confirmados
 
 | ID | Título | Severidade | Casos | Revisão humana |
 |---|---|---|---|---|
-| ACH-01 | Contradição no tratamento de ambiguidade | Alta | CT-02 | Pendente |
-| ACH-02 | Ausência representada como texto `"null"` | Alta | CT-03; CT-11 | Pendente |
-| ACH-03 | Mensagem não acionável fora do domínio | Média | CT-04 | Pendente |
-| ACH-04 | Exposição contraditória de dado sensível | Crítica | CT-05 | Pendente |
-| ACH-05 | Classificação enviesada sem critério objetivo | Alta | CT-13 | Pendente |
-| ACH-06 | Aviso assíncrono após timeout | Média | CT-14 | Pendente |
+| ACH-01 | Contradição no tratamento de ambiguidade | Alta | CT-02 | Confirmada em 13/09/2026 |
+| ACH-02 | Ausência representada como texto `"null"` | Alta | CT-03; CT-11 | Confirmada em 13/09/2026 |
+| ACH-03 | Mensagem não acionável fora do domínio | Média | CT-04 | Confirmada em 13/09/2026 |
+| ACH-04 | Exposição contraditória de dado sensível | Crítica | CT-05 | Confirmada em 13/09/2026 |
+| ACH-05 | Classificação enviesada sem critério objetivo | Alta | CT-13 | Confirmada em 13/09/2026 |
+| ACH-06 | Aviso assíncrono após timeout | Média | CT-14 | Confirmada em 13/09/2026 |
 
-Os seis achados foram confirmados na revisão técnica por IA, mas somente serão
-tratados como conclusões finais após a validação humana prevista em
-`docs/REVISORES.md`.
+Os seis achados foram identificados na revisão técnica por IA e confirmados pela
+revisão humana informada pelo representante da equipe em 13/09/2026.

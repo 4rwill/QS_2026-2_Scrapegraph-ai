@@ -5,7 +5,7 @@
 - instituição, curso/turma e docente;
 - confirmação/documento da autorização para 8 integrantes;
 - captura ou comprovante da reserva no Classroom;
-- responsáveis e revisores de cada bloco.
+- dados finais de responsáveis pelo vídeo, apresentação e entrega.
 
 ## Recurso técnico necessário para executar os testes
 
@@ -23,18 +23,18 @@ Preparação concluída em 12/09/2026:
 8. [x] consolidar a revisão técnica por IA e seis achados preliminares.
 
 A suíte principal obteve 8 casos `A`, 3 `P` e 3 `R` na revisão técnica por IA,
-com 19/28 (67,9%). As 15 repetições foram concluídas. Esses resultados somente
-se tornam conclusões finais após a revisão humana registrada.
+com 19/28 (67,9%). As 15 repetições foram concluídas. Em 13/09/2026, os
+revisores humanos confirmaram todos os resultados sem alterações.
 
 ## Ordem imediata
 
 1. Completar instituição, curso/turma e docente na capa.
-2. Revisar e aprovar os 12 requisitos e 14 casos.
+2. [x] Revisar e aprovar os 12 requisitos e 14 casos.
 3. [x] Integrar o ambiente Python/ScrapeGraphAI ao Ollama já instalado.
 4. [x] Executar CT-01 como piloto e revisar o protocolo técnico.
 5. [x] Executar CT-02 a CT-14 e preservar saídas, logs e avaliações.
 6. [x] Executar as 15 repetições de variabilidade.
-7. Fazer a revisão humana dos 14 casos conforme `docs/REVISORES.md`.
-8. Validar os seis achados e seus planos de melhoria por revisão cruzada.
-9. Completar dados institucionais e contribuições individuais verificáveis.
+7. [x] Fazer a revisão humana dos 14 casos conforme `docs/REVISORES.md`.
+8. [x] Validar os seis achados e a análise de variabilidade.
+9. [x] Registrar as contribuições individuais confirmadas pela equipe.
 10. Revisar o PDF preliminar, produzir slides, vídeo e entrega.

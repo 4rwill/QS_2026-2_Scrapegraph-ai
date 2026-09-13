@@ -2,8 +2,9 @@
 
 Revisão realizada pelo Codex sob orientação da Equipe 08 em 12/09/2026. Esta
 análise compara cada saída com a fonte, o schema e os critérios congelados. Ela
-**não é revisão humana**. A confirmação humana continua pendente e está
-distribuída em `docs/REVISORES.md`.
+**não é revisão humana**. Em 13/09/2026, os integrantes distribuídos em
+`docs/REVISORES.md` conferiram e confirmaram todos os pareceres sem alterações,
+conforme declaração consolidada pelo representante da equipe.
 
 | Caso | Nota técnica | Status | Síntese da revisão |
 |---|---:|---|---|
@@ -29,7 +30,7 @@ distribuída em `docs/REVISORES.md`.
 - tempo acumulado das execuções consolidadas: **155,044 segundos**;
 - tokens informados pelos grafos: **17.995**;
 - custo local informado: **US$ 0**;
-- revisão humana: pendente nos 14 casos.
+- revisão humana: concluída nos 14 casos em 13/09/2026, sem divergências.
 
 ## Ajustes sobre a classificação automática
 

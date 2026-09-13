@@ -21,10 +21,13 @@ Arquivar aqui:
 - Modelo disponível: `llama3.2:latest`, ID `a80c4f17acd5`, 3.2B, Q4_K_M.
 - Parâmetros do experimento: temperatura 0, JSON/schema e contexto declarado de 8192 tokens.
 - Verificação mínima do modelo: concluída com resposta `OK` em 12/09/2026.
-- Execução pelo SmartScraperGraph: pendente; a verificação mínima não conta como caso de teste da avaliação.
+- Execução pelo SmartScraperGraph: 14 casos concluídos; a verificação mínima permanece registrada apenas como teste do ambiente.
 
 Arquivos registrados:
 
 - `BASE-01_2026-09-12_ollama-versao.txt`;
 - `BASE-02_2026-09-12_modelo-llama3.2.txt`;
 - `BASE-03_2026-09-12_teste-minimo.txt`.
+
+Revisão humana da linha de base: Iuri Maurício Maia Pereira, confirmada em
+13/09/2026 conforme declaração consolidada da Equipe 08.

@@ -6,7 +6,10 @@
 | Requisitos | RQ-02; RQ-03; RQ-07; RQ-11 |
 | Caso | CT-14 |
 | Evidência primária | `../04-casos-teste/CT-14/execucao.log`; `../04-casos-teste/CT-14/AVISO_TERMINAL.txt` |
-| Revisão humana | Pendente |
+| Revisão humana | Eduardo Ferreira Bomfim Filho — confirmada em 13/09/2026 |
+| Responsável pela melhoria | Arthur Soares Santana |
+| Prioridade | Média |
+| Dependências | Controle do ciclo de vida do Playwright e consumo das tarefas canceladas |
 
 O timeout principal funcionou e não houve resultado fabricado, mas o Playwright
 emitiu posteriormente `Future exception was never retrieved` com
@@ -22,3 +25,6 @@ tarefa assíncrona e pode poluir logs ou ocultar problemas em execução em lote
 **Indicador:** CT-14 encerra dentro do limite sem mensagens assíncronas posteriores.
 
 **Risco residual:** baixo após correção do ciclo de vida.
+
+**Critério de conclusão:** três execuções do CT-14 encerram dentro do timeout sem
+`Future exception was never retrieved` ou `TargetClosedError` tardio.
