@@ -1,7 +1,7 @@
 """Gera o relatório técnico preliminar da AV1 em PDF.
 
-O documento permanece preliminar enquanto resultados e conclusões não forem
-validados pelos revisores humanos designados.
+O documento permanece preliminar enquanto os dados institucionais, a
+apresentação e a URL do vídeo não forem concluídos.
 """
 
 from __future__ import annotations
@@ -38,6 +38,45 @@ TEAM_MEMBERS = [
     "Iuri Maurício Maia Pereira",
     "Pedro César Figueiredo Carneiro",
     "Rian Purificação de Oliveira",
+]
+
+TEAM_CONTRIBUTIONS = [
+    [
+        "Arthur Soares Santana",
+        "Requisitos, rastreabilidade e robustez",
+        "CT-02/06/09/14",
+    ],
+    ["Artur José Soares Santos", "Contexto, ISO, ausência e conflito", "CT-03/07/10"],
+    [
+        "Christian Will Silva Santos Nunes",
+        "Auditoria de evidências e fontes",
+        "CT-03/08/11",
+    ],
+    [
+        "Eduardo Curcino Monteiro Filho",
+        "Metodologia, interação e schema",
+        "CT-04/07/12",
+    ],
+    [
+        "Eduardo Ferreira Bomfim Filho",
+        "Achados, viés e plano de melhoria",
+        "CT-04/08/13; ACH",
+    ],
+    [
+        "Iuri Maurício Maia Pereira",
+        "Baseline, segurança e privacidade",
+        "CT-01/05/09/12",
+    ],
+    [
+        "Pedro César Figueiredo Carneiro",
+        "Variabilidade, reformulação e conflitos",
+        "CT-01/06/10/13",
+    ],
+    [
+        "Rian Purificação de Oliveira",
+        "Ambiguidade, disponibilidade e auditoria",
+        "CT-02/05/11/14",
+    ],
 ]
 
 NAVY = colors.HexColor("#17365D")
@@ -325,8 +364,8 @@ def build_story() -> list[object]:
             ),
             Spacer(1, 0.8 * cm),
             callout(
-                "VERSÃO PRELIMINAR - Execuções técnicas concluídas; validação "
-                "humana, dados institucionais e artefatos de apresentação pendentes."
+                "VERSÃO PRELIMINAR - Execuções e validações concluídas; dados "
+                "institucionais, vídeo e artefatos de apresentação pendentes."
             ),
             Spacer(1, 0.9 * cm),
             data_table(
@@ -420,8 +459,8 @@ def build_story() -> list[object]:
             paragraph(
                 "A equipe congelou versão, fonte, schema, modelo e parâmetros; definiu o esperado "
                 "antes da execução; realizou 14 casos; pontuou cada resultado de 0 a 2; repetiu "
-                "cinco prompts três vezes; e consolidou seis achados técnicos preliminares. A "
-                "validação humana permanece como etapa obrigatória antes da conclusão final."
+                "cinco prompts três vezes; e consolidou seis achados. As classificações, fontes e "
+                "conclusões foram confirmadas pelos revisores humanos em 13/09/2026."
             ),
             callout(
                 "Regra de integridade: nenhuma hipótese, saída simulada ou texto produzido por IA "
@@ -680,8 +719,8 @@ def build_story() -> list[object]:
             heading("6. Casos de teste - parte 1"),
             paragraph(
                 "Os resultados esperados foram definidos antes da execução para reduzir viés "
-                "retrospectivo. Os status abaixo refletem a revisão técnica por IA e ainda precisam "
-                "de confirmação humana."
+                "retrospectivo. Os status refletem a revisão técnica por IA e foram confirmados "
+                "pelos revisores humanos em 13/09/2026."
             ),
             data_table(
                 test_rows(cases[:7]),
@@ -734,8 +773,8 @@ def build_story() -> list[object]:
             callout(
                 "Estado em 12/09/2026: 14/14 casos executados. A revisão técnica por IA registrou "
                 "8 casos A, 3 P e 3 R, somando 19/28 (67,9%). O tempo acumulado foi 155,044 s, "
-                "com 17.995 tokens informados pelos grafos e custo local US$ 0. A revisão humana "
-                "dos casos permanece pendente."
+                "com 17.995 tokens informados pelos grafos e custo local US$ 0. Os dois revisores "
+                "de cada caso confirmaram notas e status sem alterações em 13/09/2026."
             ),
             PageBreak(),
         ]
@@ -801,12 +840,12 @@ def build_story() -> list[object]:
                 "RESULTADOS TÉCNICOS: suíte principal com 8 A, 3 P e 3 R (19/28; 67,9%). Nas "
                 "15 repetições houve 9 A, 3 P e 3 R (21/30; 70%). Os cinco prompts produziram "
                 "uma única saída canônica em suas três repetições. CT-03 e CT-10 mostram que "
-                "estabilidade não implica correção. Revisão humana pendente."
+                "estabilidade não implica correção. A análise foi confirmada pela revisão humana."
             ),
-            heading("7.3 Achados técnicos preliminares e plano", 2),
+            heading("7.3 Achados confirmados e plano", 2),
             paragraph(
-                "Os seis achados derivam das saídas preservadas e da revisão técnica por IA. A "
-                "severidade e as recomendações deverão ser confirmadas pelos revisores humanos."
+                "Os seis achados derivam das saídas preservadas e da revisão técnica por IA. As "
+                "severidades e recomendações foram confirmadas pelos revisores humanos."
             ),
             data_table(
                 improvement_rows,
@@ -828,14 +867,14 @@ def build_story() -> list[object]:
             paragraph(
                 "O Codex foi utilizado para analisar o enunciado, estruturar o repositório, propor o "
                 "recorte, elaborar requisitos/casos, executar a suíte e gerar este relatório "
-                "preliminar. A equipe guiou as decisões e deverá revisar fontes, resultados e "
-                "conclusões. As saídas reais foram preservadas: IA não é a única autoridade de avaliação. A "
+                "preliminar. A equipe guiou as decisões e revisou fontes, resultados e conclusões "
+                "em 13/09/2026. As saídas reais foram preservadas: IA não foi a única autoridade de avaliação. A "
                 "declaração detalhada está em docs/DECLARACAO_USO_IA.md."
             ),
             heading("9. Contribuição individual", 1),
             data_table(
                 [["Integrante", "Contribuição verificável", "Evidência"]]
-                + [[name, "[PREENCHER]", "[PREENCHER]"] for name in TEAM_MEMBERS],
+                + TEAM_CONTRIBUTIONS,
                 [3.0 * cm, 8.4 * cm, 5.0 * cm],
                 tiny=True,
             ),
@@ -844,8 +883,7 @@ def build_story() -> list[object]:
                 "O estudo cobre um único grafo, uma fonte sintética principal, uma versão congelada e "
                 "um conjunto limitado de prompts. Foram usados um único modelo local e uma única "
                 "máquina, portanto os resultados não generalizam para outros provedores ou fontes. "
-                "A validação humana, o vídeo, os dados institucionais e a descrição verificável das "
-                "contribuições ainda estão pendentes. O relatório não representa "
+                "O vídeo, os dados institucionais e a apresentação ainda estão pendentes. O relatório não representa "
                 "certificação nem avaliação do projeto inteiro."
             ),
             heading("11. Referências", 1),
@@ -867,8 +905,7 @@ def build_story() -> list[object]:
                 "seguidos de 3 a 5 minutos de perguntas."
             ),
             callout(
-                "Gate de versão final: concluir e assinar a revisão humana, preencher dados "
-                "institucionais e contribuições, inserir e validar a URL do vídeo, produzir a "
+                "Gate de versão final: preencher dados institucionais, inserir e validar a URL do vídeo, produzir a "
                 "apresentação e revisar novamente todas as páginas e links."
             ),
         ]

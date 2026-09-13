@@ -25,8 +25,14 @@ Os 14 casos foram executados. A consolidação da revisão técnica por IA está
 | `R` | 3 |
 | Pontuação total | 19/28 (67,9%) |
 
-Todas as confirmações humanas permanecem pendentes e estão distribuídas em
-`docs/REVISORES.md`.
+As confirmações humanas foram concluídas em 13/09/2026 pelos revisores
+distribuídos em `docs/REVISORES.md`, sem alteração das classificações técnicas.
+A declaração consolidada está em `CONFIRMACAO_EQUIPE_2026-09-13.md`.
+
+Os campos `revisao_humana: pendente` existentes em alguns JSONs permanecem
+inalterados porque esses arquivos são fotografias imutáveis do momento da
+execução. O estado posterior e definitivo está no `registro.md` de cada caso e
+em `RESUMO_EXECUCAO.csv`.
 
 O CT-01 foi executado duas vezes durante a calibração. A primeira execução revelou uma falha apenas na captura do log; o ajuste está documentado em `CT-01/AJUSTE_PROTOCOLO.md`. A tentativa 2 é a evidência consolidada.
 

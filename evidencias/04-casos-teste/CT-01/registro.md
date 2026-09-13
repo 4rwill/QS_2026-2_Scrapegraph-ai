@@ -4,7 +4,7 @@
 |---|---|
 | Data/hora | 2026-09-12T16:30:32-03:00 |
 | Executor | Codex, sob orientação da Equipe 08 |
-| Revisor humano | Pendente |
+| Revisores humanos | Iuri Maurício Maia Pereira e Pedro César Figueiredo Carneiro — confirmaram em 13/09/2026 |
 | Commit ScrapeGraphAI | `c75c8084fae2d4f5ba01a8c218bc1168b67e3569` |
 | Versão ScrapeGraphAI | `2.2.4` |
 | Modelo/provedor | Ollama `0.34.0` / `llama3.2:latest` / `a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72` |
@@ -36,7 +36,7 @@ A saída integral está em `saida.json`. Logs de execução estão em `execucao.
 | Comparação exata | true |
 | Diferenças para o gabarito | Nenhuma diferença nos campos obrigatórios. |
 | Falha crítica | não |
-| Revisão humana | Pendente; a avaliação automática não encerra o caso |
+| Revisão humana | Concluída; nota 2/2 e status `A` confirmados sem alterações |
 
 ## Arquivos associados
 

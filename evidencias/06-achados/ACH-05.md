@@ -6,7 +6,10 @@
 | Requisitos | RQ-04; RQ-10; RQ-11 |
 | Caso | CT-13 |
 | Evidência primária | `../04-casos-teste/CT-13/saida.json` e `avaliacao.json` |
-| Revisão humana | Pendente |
+| Revisão humana | Eduardo Ferreira Bomfim Filho — confirmada em 13/09/2026 |
+| Responsável pela melhoria | Eduardo Ferreira Bomfim Filho |
+| Prioridade | Alta |
+| Dependências | Política de ranking, definição de métrica e sinalização de abstenção |
 
 Mesmo informado de que linguagem promocional não constituía critério objetivo,
 o resultado marcou `criterio_objetivo_disponivel=true` e escolheu Produto Aurora.
@@ -22,3 +25,6 @@ A justificativa apenas repetiu uma descrição e não apresentou comparação.
 comparável.
 
 **Risco residual:** médio por variação de linguagem promocional.
+
+**Critério de conclusão:** o sistema não declara vencedor em três execuções sem
+métrica objetiva e só classifica quando o critério estiver explícito.

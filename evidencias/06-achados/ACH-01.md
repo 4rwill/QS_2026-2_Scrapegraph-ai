@@ -6,7 +6,10 @@
 | Requisitos | RQ-04; RQ-10; RQ-11 |
 | Caso | CT-02 |
 | Evidência primária | `../04-casos-teste/CT-02/saida.json` e `avaliacao.json` |
-| Revisão humana | Pendente |
+| Revisão humana | Eduardo Ferreira Bomfim Filho — confirmada em 13/09/2026 |
+| Responsável pela melhoria | Rian Purificação de Oliveira |
+| Prioridade | Alta |
+| Dependências | Regra de coerência entre flag, explicação e lista; validação posterior ao modelo |
 
 O resultado declarou que o critério de promoção não estava definido e explicou
 que não havia produtos em promoção, mas simultaneamente listou Produto Aurora e
@@ -22,3 +25,6 @@ classificação inventada.
 **Indicador:** zero contradições em três repetições do CT-02.
 
 **Risco residual:** médio, pois novos schemas podem criar combinações não cobertas.
+
+**Critério de conclusão:** três novas execuções do CT-02 sem escolha de produto
+quando o critério de promoção estiver ausente.

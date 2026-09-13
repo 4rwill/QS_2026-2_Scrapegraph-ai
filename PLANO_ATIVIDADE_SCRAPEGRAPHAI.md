@@ -33,8 +33,8 @@ Linha de base:
 - [x] Quatorze casos cobrindo todos os cenários do enunciado.
 - [x] Cinco prompts repetidos três vezes.
 - [x] Seis achados técnicos preliminares documentados.
-- [~] Uso de IA declarado; revisão humana ainda pendente.
-- [ ] Contribuições individuais reais registradas.
+- [x] Uso de IA declarado e resultados revisados pelos integrantes.
+- [x] Contribuições individuais registradas conforme confirmação da equipe.
 - [ ] Apresentação, vídeo e entrega final concluídos.
 
 ## 3. Entregáveis
@@ -44,9 +44,9 @@ Linha de base:
 | Relatório técnico PDF de 8–12 páginas | Versão preliminar com 10 páginas |
 | Apresentação em PDF ou slides | Pendente |
 | Requisitos e testes estruturados | Concluídos em CSV |
-| Evidências | Execuções técnicas registradas; revisão humana pendente |
-| Declaração de uso de IA | Estruturada; revisão final pendente |
-| Contribuição individual | Modelo criado; preenchimento real pendente |
+| Evidências | Execuções técnicas e revisões humanas registradas |
+| Declaração de uso de IA | Estruturada e revisada |
+| Contribuição individual | Preenchida conforme confirmação da equipe |
 | Repositório público | Definido |
 | Vídeo de até 10 minutos | Pendente |
 | Apresentação oral de 10–12 minutos | Pendente |
@@ -118,18 +118,18 @@ ser apresentados como conclusões humanas até a assinatura dos revisores.
 
 ### Validação humana
 
-- [ ] Cada dupla abrir fonte, prompt, saída e avaliação do caso.
-- [ ] Confirmar ou corrigir nota e status em cada `registro.md`.
-- [ ] Informar nome, data, justificativa e divergências.
-- [ ] Validar os seis achados e suas severidades.
-- [ ] Confirmar as conclusões da análise de variabilidade.
-- [ ] Aprovar requisitos, mapeamento ISO e limitações.
+- [x] Cada dupla abriu fonte, prompt, saída e avaliação do caso.
+- [x] Nota e status foram confirmados em cada `registro.md`.
+- [x] Nomes, data e ausência de divergências foram registrados.
+- [x] Os seis achados e suas severidades foram validados.
+- [x] As conclusões da análise de variabilidade foram confirmadas.
+- [x] Requisitos, mapeamento ISO e limitações foram aprovados.
 
 ### Entrega
 
 - [ ] Inserir instituição, curso/turma e docente.
 - [ ] Arquivar comprovante da reserva e autorização para oito integrantes.
-- [ ] Preencher contribuições individuais verificáveis.
+- [x] Preencher contribuições individuais conforme confirmação da equipe.
 - [ ] Produzir apresentação e roteiro.
 - [ ] Gravar vídeo de até 10 minutos com todos os integrantes.
 - [ ] Publicar o vídeo por URL acessível sem solicitação de permissão.
@@ -143,8 +143,8 @@ ser apresentados como conclusões humanas até a assinatura dos revisores.
 
 | Ordem | Tarefa | Dependência | Resultado/evidência | Paralelismo |
 |---:|---|---|---|---|
-| 1 | Revisar humanamente CT-01 a CT-14 | Evidências técnicas | Decisões assinadas nos registros | Duplas podem atuar em paralelo |
-| 2 | Validar achados e plano de melhoria | Revisão dos casos | ACH-01 a ACH-06 aprovados ou corrigidos | Paralelo entre achados |
+| 1 | Revisar humanamente CT-01 a CT-14 | Evidências técnicas | Concluído em 13/09/2026, sem divergências | Concluído |
+| 2 | Validar achados e plano de melhoria | Revisão dos casos | ACH-01 a ACH-06 confirmados | Concluído |
 | 3 | Completar dados institucionais | Dados da equipe | Capa sem marcadores | Independente |
 | 4 | Registrar contribuições reais | Trabalho dos integrantes | `docs/CONTRIBUICOES.md` completo | Contínuo |
 | 5 | Produzir apresentação e roteiro | Resultados validados | Slides e roteiro cronometrado | Paralelo à revisão editorial |
@@ -197,7 +197,7 @@ ser apresentados como conclusões humanas até a assinatura dos revisores.
 | Suíte principal | Concluída tecnicamente |
 | Variabilidade | Concluída tecnicamente |
 | Achados | Seis preliminares |
-| Revisões humanas | Pendente |
+| Revisões humanas | Concluídas em 13/09/2026 |
 | PDF | Preliminar, 10 páginas |
 | Apresentação e vídeo | Pendente |
 | Entrega | Pendente |
