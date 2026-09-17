@@ -75,6 +75,6 @@ Toda afirmação de resultado deve apontar para uma evidência com ID único. A 
 
 ## Vídeo da atividade
 
-**URL:** `[PENDENTE - inserir após hospedagem]`
+**URL:** `https://drive.google.com/drive/folders/1_njyIG21NX0ne1NxJ7N5D7cV5NQ-Gis4`
 
 O vídeo ainda não foi gravado. Após a publicação, a mesma URL deverá ser registrada também no relatório, no arquivo [`VIDEO.md`](VIDEO.md) e no Google Classroom.
