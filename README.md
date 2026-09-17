@@ -64,13 +64,13 @@ Toda afirmação de resultado deve apontar para uma evidência com ID único. A 
 
 ## Entregáveis
 
-- [ ] Relatório técnico final em PDF, com 8 a 12 páginas sem contar anexos.
-- [ ] Apresentação em PDF ou slides.
+- [x] Relatório técnico final em PDF, com 8 a 12 páginas sem contar anexos.
+- [x] Apresentação em PDF ou slides.
 - [x] Arquivos estruturados iniciais de requisitos e casos de teste.
 - [x] Evidências técnicas dos 14 casos e das 15 repetições registradas.
 - [x] Declaração de uso de IA generativa estruturada e revisada.
 - [x] Tabela de contribuição individual preenchida conforme confirmação da equipe.
-- [ ] Vídeo de até 10 minutos com participação de todos.
+- [x] Vídeo de até 10 minutos com participação de todos.
 - [ ] Apresentação oral de 10 a 12 minutos.
 
 ## Vídeo da atividade
